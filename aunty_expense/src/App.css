@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+.add {
+  width: 100%;
+  margin-top: 25px;
+}
+
+.track {
+  background-color: rgb(0, 0, 0);
+  height: 100%;
+  border-radius: 20px;
+  color: white;
+}
+
+.records {
+  height: 200px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.total {
+  height: 120px;
+  width: 120px;
+  border-radius: 10px;
+  background-color: #231955;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Merriweather", serif;
+}
+
+.lasttran {
+  height: 120px;
+  width: 300px;
+  border-radius: 10px;
+  background-color: rgb(54, 76, 175);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Merriweather", serif;
+}
+
+.header {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-family: "Merriweather", serif;
+}
+
+.cardinfo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.carddis {
+  background-color: rgba(0, 0, 0, 0.884) !important;
+  color: white !important;
+  text-align: center;
+}
+
+.amount {
+  color: green;
+}
+
+.butts {
+  border: none;
+  background-color: transparent;
+}
+
+.edit {
+  font-size: 30px;
+  color: rgb(60, 145, 255);
+}
+
+.delete {
+  font-size: 30px;
+  color: rgb(205, 70, 70);
+}
