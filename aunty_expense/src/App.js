@@ -15,7 +15,7 @@ function App() {
           <Col md="6"><TrackBoard /></Col>
         </Row>
       </Container>
-      <Container style={{ marginTop: "30px" }}><ExpenseList /></Container>
+      <Container style={{ marginTop: "30px", marginBottom: "40px" }}><ExpenseList /></Container>
     </>
   );
 }
